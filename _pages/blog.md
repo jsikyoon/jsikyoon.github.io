@@ -16,6 +16,43 @@ pagination:
     after: 3 # The number of links after the current page
 ---
 
+<style>
+  .post-content {
+    font-size: 0.95rem;
+  }
+  .post-content h1 {
+    font-size: 1.8rem;
+  }
+  .post-content h2 {
+    font-size: 1.5rem;
+  }
+  .post-content h3 {
+    font-size: 1.3rem;
+  }
+  .post-content h4 {
+    font-size: 1.2rem;
+  }
+  .post-content h5 {
+    font-size: 1.1rem;
+  }
+  .post-content h6 {
+    font-size: 1rem;
+  }
+  .post-content p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+  .post-content li {
+    font-size: 0.95rem;
+  }
+  .post-content blockquote {
+    font-size: 0.95rem;
+  }
+  .post-content code {
+    font-size: 0.9rem;
+  }
+</style>
+
 <div class="post">
 
 {% assign blog_name_size = site.blog_name | size %}
