@@ -88,7 +88,7 @@ ninja.data = [{
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/jaesik-yoon", "_blank");
+          window.open("https://www.linkedin.com/in/jaesik-yoon-809726123", "_blank");
         },
       },{
         id: 'social-scholar',
@@ -96,6 +96,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://scholar.google.com/citations?user=qboyyIAAAAAJ", "_blank");
+        },
+      },{
+        id: 'social-x',
+        title: 'X',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://twitter.com/jaesikyoon_", "_blank");
         },
       },{
       id: 'light-theme',
