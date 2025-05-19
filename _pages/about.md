@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <em>ML Developer at SAP and Ph.D student at KAIST</em>
+subtitle: <em>ML Developer at SAP</em> and <em>Ph.D student at KAIST</em>
 
 profile:
   align: right
