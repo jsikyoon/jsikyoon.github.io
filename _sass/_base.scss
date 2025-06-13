@@ -705,6 +705,46 @@ footer.sticky-bottom {
     margin-bottom: 1em;
   }
 
+  // Spotlight highlighting
+  .spotlight-note {
+    background: linear-gradient(135deg, var(--global-theme-color) 0%, rgba(var(--global-theme-color-rgb), 0.8) 100%);
+    color: white !important;
+    font-style: italic;
+    font-weight: 500;
+    padding: 4px 8px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    margin: 2px 0;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    
+    &:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    }
+  }
+
+  // Oral presentation highlighting  
+  .oral-note {
+    background: linear-gradient(135deg, #28a745 0%, rgba(40, 167, 69, 0.8) 100%);
+    color: white !important;
+    font-style: italic;
+    font-weight: 500;
+    padding: 4px 8px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    margin: 2px 0;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    
+    &:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    }
+  }
+
   h2 {
     margin-bottom: 1rem;
 
@@ -728,9 +768,6 @@ footer.sticky-bottom {
 
     li {
       margin-bottom: 1rem;
-
-      .preview {
-      }
 
       .abbr {
         margin-bottom: 0.5rem;
