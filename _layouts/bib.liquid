@@ -202,11 +202,11 @@
       {% if entry.bibtex_show %}
         <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
       {% endif %}
-      {% if entry.html %}
-        {% if entry.html contains '://' %}
-          <a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button">HTML</a>
+      {% if entry.page %}
+        {% if entry.page contains '://' %}
+          <a href="{{ entry.page }}" class="btn btn-sm z-depth-0" role="button">Page</a>
         {% else %}
-          <a href="{{ entry.html | prepend: '/assets/html/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">HTML</a>
+          <a href="{{ entry.page | prepend: '/assets/html/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Page</a>
         {% endif %}
       {% endif %}
       {% if entry.pdf %}
