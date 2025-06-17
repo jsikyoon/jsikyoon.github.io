@@ -96,7 +96,7 @@ lsi: false # produce an index for related posts
 
 # Pagination
 pagination:
-  enabled: false
+  enabled: true
 
 related_blog_posts:
   enabled: false
@@ -210,6 +210,7 @@ plugins:
   - jekyll-minifier
   - jekyll-paginate-v2
   - jekyll-regex-replace
+  - jekyll-scholar
   - jekyll/scholar
   - jekyll-sitemap
   - jekyll-tabs
@@ -275,11 +276,13 @@ scholar:
   source: /_bibliography/
   bibliography: papers.bib
   bibliography_template: bib
+  allow_locale_overrides: true
 
   bibtex_filters: [latex, smallcaps, superscript]
 
   replace_strings: true
   join_strings: true
+  use_raw_bibtex_entry: false
 
   details_dir: bibliography
   details_link: Details
