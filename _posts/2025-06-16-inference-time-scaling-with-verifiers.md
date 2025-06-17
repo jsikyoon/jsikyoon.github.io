@@ -9,7 +9,7 @@ As generative models become increasingly powerful, a fundamental question re-eme
 
 ## Bridging Generation and Reasoning
 
-![Reasoning as Navigation](/assets/img/inference-time-scaling-bridging-generation-and-reasoning.png){: width="530" height="110" .m-auto .d-block}
+![Reasoning as Navigation](/assets/img/inference-time-scaling-bridging-generation-and-reasoning.png){: .img-fluid .m-auto .d-block}
 
 ### Understanding Reasoning Tasks from a Generative Perspective
 
@@ -42,6 +42,8 @@ For example, a mathematical verifier might check whether an equation is correctl
 ## Democratizing AI Through User-Designed Verifiers
 
 The true significance of inference-time scaling with verifiers lies not in their technical details, but in the paradigm shift they enable.
+
+![Democratizing AI Through User-Designed Verifiers](/assets/img/inference-time-scaling-democratizing-ai-through-user-designed-verifiers.png){: .img-fluid .m-auto .d-block}
 
 ### Shifting Design Authority
 
