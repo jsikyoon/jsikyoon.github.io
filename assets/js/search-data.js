@@ -23,7 +23,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "books-the-godfather",
+        },{id: "post-inference-time-scaling-with-verifiers-democratizing-ai-reasoning",
+        
+          title: "Inference-Time Scaling with Verifiers: Democratizing AI Reasoning",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/inference-time-scaling-with-verifiers/";
+          
+        },
+      },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
