@@ -51,7 +51,12 @@ ninja.data = [{
           section: "News",},{id: "news-our-paper-fast-monte-carlo-tree-diffusion-100x-speedup-via-parallel-sparse-planning-is-released-on-arxiv",
           title: 'Our paper Fast Monte Carlo Tree Diffusion: 100x Speedup via Parallel Sparse Planning...',
           description: "",
-          section: "News",},{
+          section: "News",},{id: "projects-monte-carlo-tree-diffusion-for-system-2-planning",
+          title: 'Monte Carlo Tree Diffusion for System 2 Planning',
+          description: "A novel approach blending Monte Carlo Tree Search and Diffusion Models",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/mctd/";
+            },},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
