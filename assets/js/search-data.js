@@ -63,7 +63,12 @@ ninja.data = [{
           section: "News",},{id: "news-our-paper-compositional-monte-carlo-tree-diffusion-for-extendable-planning-is-released-on-arxiv",
           title: 'Our paper Compositional Monte Carlo Tree Diffusion for Extendable Planning is released on...',
           description: "",
-          section: "News",},{id: "projects-fast-monte-carlo-tree-diffusion-100x-speedup-via-parallel-sparse-planning",
+          section: "News",},{id: "projects-compositional-monte-carlo-tree-diffusion-for-extendable-planning",
+          title: 'Compositional Monte Carlo Tree Diffusion for Extendable Planning',
+          description: "A novel approach to extend the capabilities of Monte Carlo Tree Diffusion beyond trained trajectory lengths",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/c-mctd/";
+            },},{id: "projects-fast-monte-carlo-tree-diffusion-100x-speedup-via-parallel-sparse-planning",
           title: 'Fast Monte Carlo Tree Diffusion: 100x Speedup via Parallel Sparse Planning',
           description: "A novel approach to optimize the efficiency of Monte Carlo Tree Diffusion",
           section: "Projects",handler: () => {
