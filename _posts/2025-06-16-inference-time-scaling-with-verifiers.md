@@ -97,7 +97,7 @@ As this field evolves, the key will be maintaining the democratic promise of use
 
 ## Acknowledgments
 
-This blog post is reviewed by [Minsu Kim](https://minsuukim.github.io).
+This blog post is reviewed by [Minsu Kim](https://minsuukim.github.io). Thank you for the valuable feedback and suggestions.
 
 ## References
 
