@@ -95,6 +95,10 @@ However, realizing this vision requires addressing significant technical challen
 
 As this field evolves, the key will be maintaining the democratic promise of user-guided adaptation while ensuring the resulting systems remain practical, reliable, and beneficial across diverse applications.
 
+## Acknowledgments
+
+This blog post is reviewed by [Minsu Kim](https://minsuukim.github.io).
+
 ## References
 
 <a id="ref1"></a>
