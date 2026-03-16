@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-cv",
+          title: "cv",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cv/";
+          },
         },{id: "post-inference-time-scaling-with-verifiers-democratizing-ai-reasoning",
         
           title: "Inference-Time Scaling with Verifiers: Democratizing AI Reasoning",
@@ -87,6 +94,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("mailto:%6D%61%69%6C@%6A%61%65%73%69%6B%79%6F%6F%6E.%63%6F%6D", "_blank");
+        },
+      },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/jsikyoon", "_blank");
         },
       },{
         id: 'social-linkedin',
