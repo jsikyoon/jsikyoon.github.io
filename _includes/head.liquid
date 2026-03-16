@@ -1,6 +1,12 @@
 <!-- Metadata, OpenGraph and Schema.org -->
 {% include metadata.liquid %}
 
+<!-- Preconnect hints -->
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+
+<!-- RSS Feed auto-discovery -->
+<link rel="alternate" type="application/atom+xml" title="{{ site.title | default: site.first_name | append: ' ' | append: site.last_name }}" href="{{ '/feed.xml' | absolute_url }}">
+
 <!-- Bootstrap & MDB -->
 <link rel="stylesheet" href="{{ '/assets/css/bootstrap.min.css' | relative_url | bust_file_cache }}">
 <link
