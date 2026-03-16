@@ -28,7 +28,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I'm a senior machine learning developer at [SAP](https://www.sap.com/korea/index.html?geotargering_redirect=true). I work on the development of intelligent agents on SAP's products, especially on [SAP HANA Cloud](https://www.sap.com/products/data-cloud/hana.html).
+I'm a machine learning developer at [SAP](https://www.sap.com/korea/index.html?geotargering_redirect=true). I work on the development of intelligent agents on SAP's products, especially on [SAP HANA Cloud](https://www.sap.com/products/data-cloud/hana.html).
 
 Besides, I'm a Ph.D. student at [SoC](https://cs.kaist.ac.kr/) at [KAIST](https://www.kaist.ac.kr/en/) under the supervision of Prof. [Sungjin Ahn](https://mlml.kaist.ac.kr/sungjinahn). My research interests are in the diverse inductive biases to extend the generality of AI.
 

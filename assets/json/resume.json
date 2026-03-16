@@ -1,11 +1,11 @@
 {
   "basics": {
     "name": "Jaesik Yoon",
-    "label": "Senior ML Developer & Ph.D. Student",
+    "label": "ML Developer & Ph.D. Student",
     "image": "",
     "email": "mail@jaesikyoon.com",
     "url": "https://jaesikyoon.com",
-    "summary": "Senior Machine Learning Developer at SAP and Ph.D. student at KAIST School of Computing. Research interests in diverse inductive biases to extend the generality of AI.",
+    "summary": "Machine Learning Developer at SAP and Ph.D. student at KAIST School of Computing. Research interests in diverse inductive biases to extend the generality of AI.",
     "location": {
       "city": "Yongin-si",
       "region": "Gyeonggi-do",
@@ -27,7 +27,7 @@
   "work": [
     {
       "name": "SAP",
-      "position": "Senior Machine Learning Developer",
+      "position": "Machine Learning Developer",
       "startDate": "2017-01-01",
       "endDate": "",
       "summary": "Development of intelligent agents on SAP products, especially on SAP HANA Cloud.",

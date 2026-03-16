@@ -9,7 +9,7 @@ last_name: Yoon
 #contact_note: >
 #  You can even add a little note about which of these is the best way to reach you.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Jaesik Yoon - Senior ML Developer at SAP and Ph.D. student at KAIST.
+  Jaesik Yoon - ML Developer at SAP and Ph.D. student at KAIST.
   Research interests in diverse inductive biases to extend the generality of AI.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
